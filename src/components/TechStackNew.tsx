@@ -69,6 +69,9 @@ const techStack: TechItem[][] = [
     { name: "Hugging Face", icon: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg", url: "https://huggingface.co" },
     { name: "OpenAI", icon: "https://img.icons8.com/color/48/chatgpt.png", url: "https://openai.com" },
   ],
+  // Row 7 - 1 items (tip of pyramid)
+  [
+    { name: "Claude", icon: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/claude.svg", url: "https://claude.ai" },],
 ];
 
 const TechStackNew = () => {
@@ -92,7 +95,7 @@ const TechStackNew = () => {
       {/* Content */}
       <div className="techstack-content">
         <h2>Tech Stack</h2>
-        
+
         <div className="techstack-pyramid">
           {techStack.map((row, rowIndex) => (
             <div key={rowIndex} className="techstack-row">
