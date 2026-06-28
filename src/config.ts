@@ -106,7 +106,7 @@ export const config = {
             title: "GLW - CMS",
             category: "Headless CMS",
             technologies: "React, WordPress, TailwindCSS, REST APIs",
-            image: "/images/placeholder.webp",
+            image: "/images/project-6.jpg",
             description: "A dynamic, SEO-friendly educational platform using React as the frontend and WordPress as a headless CMS. Integrated WordPress REST APIs to display blog posts, courses, announcements, and multilingual content in real time, with a responsive Tailwind CSS UI ensuring consistent design and accessibility across devices."
         }
     ],
